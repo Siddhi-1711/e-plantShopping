@@ -1,3 +1,4 @@
+
 /* Reset some default styles */
 body, h1, ul {
     margin: 0;
@@ -188,6 +189,26 @@ body {
 
     
 }
+/* MY ADJUSTMENTING */
+.cart-container {
+    position: relative;
+}
+
+.cart-count {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border-radius: 50%;
+    padding-bottom: 8px;
+    font-size: 20px;
+    pointer-events: none;
+}
+
+
+/* MY ADJUSTMENTING */
+
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
     .product-card {
