@@ -3,11 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Siddhi-1711.github.io/e-plantShopping",  // Add this line
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite build; vite preview --host"
+    "preview": "vite build; vite preview --host",
+    "predeploy": "npm run build",  // Add this line
+    "deploy": "gh-pages -d dist"   // Add this line
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",
